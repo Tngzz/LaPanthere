@@ -1,3 +1,9 @@
+@mixin flexbox-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +13,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+li {
+    list-style: none;
+}
+a {
+    color: white;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -37,6 +49,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+   
 }
 
 .bloc .container {
@@ -195,7 +208,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black
 }
 
 .d-bloc .panel button:hover,
@@ -316,8 +329,8 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
+    
+    margin-TOP: 25px;
     float: right;
     z-index: 1;
 }
@@ -362,9 +375,29 @@ a:hover {
     z-index: 2;
 }
 
+.citation p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 30px 10px 30px;
+
+}
+
+.text-center-white p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button-contact {
+    background-color: #c27956;
+}
+
+
+
+/*Media queries tel*/
+
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
@@ -401,6 +434,12 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    
+    
+}
+
+.portfolio-thumb {
+    display: inline-block;
 }
 
 .nav > li > .dropdown a {
@@ -542,7 +581,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 110px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -651,7 +690,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    
 }
 
 .container {
@@ -704,16 +743,16 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
 h3 {
-    font-size: 15px;
+    font-size: 26px;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+
 }
 
 .med-width-whitespace {
@@ -776,6 +815,8 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 22px;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -825,6 +866,26 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.nav-bar {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-bar-ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar-ul li {
+    margin-left: 20%;
+    
+    
+}
+
+a {
+    text-decoration: none
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -846,12 +907,14 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1034,9 +1097,17 @@ h4 {
         padding-right: 0;
     }
 }
+/*Tel*/
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .social {
+        max-width: 400px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
 }
