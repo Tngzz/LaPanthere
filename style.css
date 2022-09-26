@@ -394,7 +394,7 @@ a:hover {
 
 
 
-/*Media queries tel*/
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -817,6 +817,7 @@ h4 {
     color: #F3976C!important;
     font-size: 22px;
     text-align: center;
+   
 }
 
 .btn-atomic-tangerine {
