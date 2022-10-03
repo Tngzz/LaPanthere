@@ -424,7 +424,7 @@ label {
 }
 
 .col-sm-122 {
-    background-color: rgb(22 22 22 / 50%);
+    background-color: rgb(22 22 22 / 85%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -824,7 +824,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(22 22 22 / 50%);
+    background-color: rgb(22 22 22 / 85%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -859,7 +859,7 @@ h4 {
 }
 
 .tc-white3 {
-    background-color: rgb(22 22 22 / 50%);
+    background-color: rgb(22 22 22 / 85%);
     padding: 13PX 0PX 13PX 0PX;
     font-size: 30px;
     color: #F3976C;
@@ -988,6 +988,10 @@ a {
     .bloc-lg {
         padding: 100px 0px;
     }
+
+    .col-sm-6 {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1002,38 +1006,6 @@ a {
         background-attachment: scroll;
     }
 }
-
-/*Tel
-@media (max-width: 991px) {
-   
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-    .row1 {
-        display: flex;
-        flex-direction: column;
-    }
-}*/
 
 /*Tel*/
 
