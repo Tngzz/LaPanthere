@@ -904,7 +904,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-lines-h2-bg {
@@ -912,11 +912,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .nav-bar {
@@ -1185,10 +1185,15 @@ a {
     
     .cta-hero {
         font-size: 15px;
+        margin-left: 0%;
     }
 
     .tight-width-whitespace {
         font-size: 22px;
+    }
+
+    .black-background {
+        padding: 40px 0px 40px 0px;
     }
 }
 
