@@ -145,7 +145,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black
 }
 
 .d-bloc .a-btn:hover,
@@ -875,6 +875,7 @@ h4 {
     border: transparent;
     width:60%;
     margin-left: 26%;
+    border-radius: 68px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1185,7 +1186,7 @@ a {
     
     .cta-hero {
         font-size: 15px;
-        margin-left: 0%;
+        margin-left: 25%;
     }
 
     .tight-width-whitespace {
