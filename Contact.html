@@ -37,8 +37,7 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monoch
-							rome.svg" alt="Logo de l'agence représantant une panthère" height="40" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de l'agence représantant une panthère" height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -81,13 +80,12 @@
 				<div class="container bloc-lg">
 					<div class="row1">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent.">
+							<form  id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-									<h2>Contactez-nous</h2>
 									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" required/>
+									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
 									<label for="email">
@@ -96,7 +94,7 @@
 									<input id="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group">
-									<label for="comment_nous_avez-vous_connu?">
+									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
 									<input class="form-control" type="email" required id="input_504" />
@@ -106,7 +104,7 @@
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 									</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 								</div> 
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine1" type="submit">
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
 								</button>
 							</form>
@@ -160,7 +158,6 @@
 				</div>
 			</div>
 	<!-- Footer - bloc-8 END -->
-	</div>
 <!-- Principal conteneur END -->
 </body>
 </html>
