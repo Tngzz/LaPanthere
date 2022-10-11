@@ -1155,9 +1155,10 @@ a {
 
     .social {
         max-width: 400px;
-        margin: 10px;
         display: flex;
         justify-content: space-around;
+        margin-top: 10px;  
+        margin-bottom: 10px;
     }
     
     .row1 {
@@ -1187,7 +1188,7 @@ a {
     
     .cta-hero {
         font-size: 15px;
-        margin-left: 25%;
+        
     }
 
     .tight-width-whitespace {
